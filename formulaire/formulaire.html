@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Exercice 6</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='main.js'></script>
+</head>
+
+<style>
+input[valeur="10"]
+{
+    margin-left: 100px;
+}
+
+input[name="nom"]
+{
+    margin-left: 118px;
+}
+
+select[id="pet-select"]
+{
+    margin-left: 35px;
+}
+
+input[name="année"]
+{
+    margin-left: 10px;
+}
+
+.numéro{
+    margin-left: 95px;
+    
+}
+
+input[name="numéro"]
+{
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+.codepostale{
+    margin-left: 159px;
+}
+
+input[name="codepostal"]
+{
+    margin-left: 10px;
+}
+
+label.adresse{
+    padding-top: 100px;
+    
+}
+
+input[name="rue"]
+{
+    margin-left: 10px;
+}
+
+input[name="ville"]
+{
+    margin-left: 10px;
+}
+
+input[name="email"]
+{
+    margin-left: 105px;
+}
+
+input[name="tel"]
+{
+    margin-left: 93px;
+}
+
+.rouge{
+    color: red;
+}
+
+
+</style>
+
+<body>
+
+
+
+
+    <div class="DivPrincipale" style="width: 700px; margin: auto; padding: 10px; border : 2px solid black;" >
+        <p><font color="red">*</font> Civilité : <input type="radio"  name="Genre" valeur="10" checked="d" >
+
+            <label>Mr</label>
+            <input type="radio"  name="Genre" valeur="10" checked="none">
+            <label>Mme ou Mlle</label>
+
+        </p>
+
+        <p> 
+
+            <label><font color="red">*</font> Nom :</label>
+            <input type="text" name="nom" valeur="10">
+
+        </p>
+        
+        <p> 
+
+            <label><font color="red">*</font> Prénom :</label>
+            <input type="text" name="prenom" valeur="10" >
+
+        </p>
+
+        <p> 
+
+            <label><font color="red">*</font> Date de naissance :</label>
+            <select name="age" id="pet-select">
+                <option value=""></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="1">7</option>
+                <option value="2">8</option>
+                <option value="3">9</option>
+                <option value="4">10</option>
+                <option value="5">11</option>
+                <option value="6">12</option>
+                <option value="1">13</option>
+                <option value="2">14</option>
+                <option value="3">15</option>
+                <option value="4">16</option>
+                <option value="5">17</option>
+                <option value="6">18</option>
+                <option value="1">19</option>
+                <option value="2">20</option>
+                <option value="3">21</option>
+                <option value="4">22</option>
+                <option value="5">23</option>
+                <option value="6">24</option>
+                <option value="1">25</option>
+                <option value="2">26</option>
+                <option value="3">27</option>
+                <option value="4">28</option>
+                <option value="5">29</option>
+                <option value="6">30</option>
+                <option value="6">31</option>
+            </select>
+
+            <select name="age" id="pet-select2">
+                <option value=""></option>
+                <option value="1">Janvier</option>
+                <option value="2">Février</option>
+                <option value="3">Mars</option>
+                <option value="4">Avril</option>
+                <option value="5">Mai</option>
+                <option value="6">Juin</option>
+                <option value="1">Juillet</option>
+                <option value="2">Aout</option>
+                <option value="3">Septembre</option>
+                <option value="4">Octobre</option>
+                <option value="5">Novembre</option>
+                <option value="6">Décembre</option>
+                
+            </select>
+
+            <label>Année</label>
+            <input type="text" name="année" valeur="10" size="10" >
+
+        </p>
+
+
+        <p>
+            <label>Téléphone :</label>
+            <input type="text" name="tel" valeur="10" >
+
+        </p>
+
+        <p>
+            <label><font color="red">*</font> E-mail :</label>
+            <input type="text" name="email" valeur="10" size="50" >
+
+        </p>
+
+
+        <input type="submit" name="envoyer" valeur="1" >
+        <input type="reset" name="reset" valeur="1" >
+
+        <p class="rouge">* : Champs obligatoires</p>
+
+
+
+
+    </div>
+
+
+    
+</body>
+</html>
