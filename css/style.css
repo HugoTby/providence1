@@ -27,6 +27,9 @@
 section{
     padding: 4rem 0 3rem;
 }
+#imgmenu{
+    margin-left: 50px;
+}
 
 img {
     width: 100%;
@@ -359,6 +362,21 @@ header{
     font-size: 0.9rem;
     color: var(--text-color);
 }
+.divul{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.col{
+   
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    
+}
+
 
 
 
