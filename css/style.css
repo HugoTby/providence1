@@ -420,6 +420,18 @@ header{
     max-width: 800px;
     margin: auto;
     width: 100%;
+    padding-bottom: 30px;
+}
+.music-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    gap: 10px;
+    justify-content: center;
+    max-width: 800px;
+    margin: auto;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-left: 250px;
 }
 .screenshots-content img{
     width: 100%;
