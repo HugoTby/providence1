@@ -430,8 +430,7 @@ header{
     max-width: 800px;
     margin: auto;
     width: 100%;
-    padding-bottom: 30px;
-    padding-left: 250px;
+    
 }
 .screenshots-content img{
     width: 100%;
@@ -519,6 +518,11 @@ html::-webkit-scrollbar{
     .video-container{
         margin-top: 5rem !important;
     }
+
+    #video{
+        width: 950px;
+        height: 550px;
+    }
 }
 
 /* For medium device */
@@ -540,6 +544,11 @@ html::-webkit-scrollbar{
     }
     .screenshots-content{
         grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
+    }
+
+    #video{
+        width: 700px;
+        height: 450px;
     }
 }
 
@@ -569,6 +578,10 @@ html::-webkit-scrollbar{
     }
     .download-links{
         grid-template-columns: 1fr;
+    }
+    #video{
+        width: 500px;
+        height: 350px;
     }
 }
 
@@ -613,6 +626,10 @@ html::-webkit-scrollbar{
     .about h2,
     .screenshots h2 .download h2 {
         font-size: 1.2rem;
+    }
+    #video{
+        width: 320px;
+        height: 250px;
     }
 }
 
