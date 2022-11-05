@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(48, 49, 97);
+}
+
+h1.centrage{
+    text-align: center;
+    padding: 200px;
+}
+
+h1{
+    text-align: center;
+}
+
+p.exo1a {
+    font-size: 20px;
+    color: blue;
+}
+
+div#div-Head{
+    background-color: rgb(0, 225, 255);
+    height: 40px;
+    padding: 10px;
+}
+
+div#div-Body{
+    background-color: rgb(223, 186, 20);
+}
+
+
+div#div-Footer{
+    height: 40px;
+    padding: 10px;
+    background-color: rgb(0, 250, 175);
+}

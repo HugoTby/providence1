@@ -1,0 +1,43 @@
+.container{
+    
+    border-radius: 50% 20% / 10% 40%;
+    width: 400px;
+    height: 350px;
+    padding: 30px;
+    border: 0.5px black solid;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(238, 210, 210);
+    
+        font-family: Canva Sans,Noto Sans Variable,Noto Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+        font-variation-settings: "opsz" 100;
+
+    
+      
+    
+}
+
+.centered-element{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    padding: 15px;
+    width: 120px;
+}
+
+.gif{
+    text-align: center;
+     
+    border-radius: 60% 10% / 20% 70%;
+    width: 400px;
+    
+
+
+
+
+    
+    border: 0.5px black solid;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(238, 210, 210);
+}

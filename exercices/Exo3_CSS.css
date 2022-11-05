@@ -1,0 +1,87 @@
+/*
+
+FICHIER CSS EXO 3
+
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(48, 49, 97);
+}
+
+div{
+    background-color: rgb(223, 186, 20);
+    float: left;
+}
+
+h1{
+    text-align: center;
+}
+
+#div-Head{
+    width: 100%;
+    background-color: rgb(0, 225, 255);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+#div-Body{
+    width: 100%;
+}
+
+.DivLongue{
+    width: 100%;
+}
+
+    #menuHaut{
+        background-color: rgb(64, 190, 70);
+        width: 175px;
+        height: 500px;
+    }
+
+table{
+    text-align: center;
+    border-collapse: collapse;
+}
+
+    th, td{
+        border: 2px solid black;
+    }
+
+    th, td strong{
+        font-size: 15px;
+        color: green;
+    }
+
+    td{
+        color: blue;
+    }
+
+p.entre-red{
+    color: red;
+}
+
+h1.centrage{
+    text-align: center;
+    padding-top: 400px;
+    padding-right: 50px;
+}
+
+#menuBas{
+    background-color: rgb(190, 121, 204);
+    width: 175px;
+    height: 500px;
+}
+
+
+#div-Footer{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(0, 250, 175);
+}
