@@ -488,6 +488,72 @@ html::-webkit-scrollbar{
     background: var(--main-color);
     width: 0%;
 }
+
+
+
+
+.corpsaps{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+#cv1{
+    width: 900px;
+    height: 1200px;
+    
+}
+
+.textcenter{
+    text-align: center²;
+}
+
+
+/*images*/
+.screenshots-content img{
+    cursor: pointer;
+    
+}
+
+.popup-image{
+    position: fixed;
+    top: 0; left: 0;
+    background: rgba(0, 0, 0, .9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+.popup-image span{
+    position: absolute;
+    top: 0; right: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+}
+.popup-image img{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 750px;
+    object-fit: cover;
+}
+.screenshots-content .image{
+    overflow: hidden;
+    cursor: pointer;
+}
+.screenshots-content .image img{
+    object-fit: cover;
+    transition: .2s linear;
+}
+.screenshots-content .image:hover img{
+    transform: scale(1.1);
+}
+
+
+
 /* Making responsive / breakpoints */
 @media (max-width:1080px){
     .container{
@@ -584,6 +650,17 @@ html::-webkit-scrollbar{
         width: 500px;
         height: 350px;
     }
+    
+    
+    
+    
+    .popup-image img{
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%, -50%);
+        width: 500px;
+        object-fit: cover;
+    }
 }
 
 /* For small devices */
@@ -632,24 +709,12 @@ html::-webkit-scrollbar{
         width: 320px;
         height: 250px;
     }
+    .popup-image img{
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        object-fit: cover;
+    }
 }
 
-
-
-
-
-.corpsaps{
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    text-align: center;
-}
-
-#cv1{
-    width: 900px;
-    height: 1200px;
-    
-}
-
-.textcenter{
-    text-align: center²;
-}
